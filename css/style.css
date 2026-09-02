@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --poly-navy: #0A2540;
+    --poly-gold: #E5A93C;
+    --poly-bg: #F4F6F9;
+    --poly-dark: #2D3748;
+}
+
+body {
+    font-family: 'Prompt', 'Sarabun', sans-serif;
+    background-color: var(--poly-bg);
+    color: var(--poly-dark);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main { flex: 1; }
+
+.header-top {
+    background-color: var(--poly-navy);
+    border-bottom: 4px solid var(--poly-gold);
+}
+
+.brand-title { color: #ffffff; font-weight: 700; font-size: 1.4rem; }
+.brand-subtitle { color: var(--poly-gold); font-size: 0.85rem; }
+
+.navbar-poly {
+    background-color: #1a365d !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-poly .nav-link {
+    color: #e2e8f0 !important;
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+}
+
+.navbar-poly .nav-link:hover, 
+.navbar-poly .nav-link.active {
+    background-color: var(--poly-gold);
+    color: var(--poly-navy) !important;
+    font-weight: 600;
+}
+
+.section-header {
+    border-left: 5px solid var(--poly-gold);
+    padding-left: 12px;
+    color: var(--poly-navy);
+    font-weight: 700;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #ffffff;
+}
+
+.card-custom:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-poly {
+    background-color: var(--poly-navy);
+    color: #ffffff;
+    border: none;
+}
+
+.btn-poly:hover {
+    background-color: var(--poly-gold);
+    color: var(--poly-navy);
+}
+
+.stat-widget {
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: #ffffff;
+}
+.stat-widget.vocational { background: linear-gradient(135deg, #0A2540 0%, #1e4976 100%); }
+.stat-widget.high-vocational { background: linear-gradient(135deg, #10b981 0%, #059669 100%); }
+.stat-widget.total { background: linear-gradient(135deg, #E5A93C 0%, #d97706 100%); }
+
+footer {
+    background-color: var(--poly-navy);
+    color: #cbd5e1;
+    border-top: 4px solid var(--poly-gold);
+}
