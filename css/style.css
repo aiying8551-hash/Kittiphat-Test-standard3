@@ -1,140 +1,38 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Prompt', sans-serif;
-}
-
-body {
-  background-color: #f4f7f6;
-  color: #333;
-}
-
-/* Navbar */
-.navbar {
-  background: #0f172a;
-  padding: 1rem 2rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-.nav-container {
-  max-width: 1200px;
+.executive-container {
+  max-width: 1100px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.brand-logo {
-  color: #f59e0b;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-.nav-menu {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-}
-.nav-menu a {
-  color: #cbd5e1;
-  text-decoration: none;
-  font-weight: 500;
-  transition: 0.3s;
-}
-.nav-menu a:hover, .nav-menu a.active {
-  color: #f59e0b;
-}
-
-/* Executive Section */
-.executive-wrapper {
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-.section-header {
+  padding: 40px 20px;
   text-align: center;
-  margin-bottom: 40px;
-}
-.section-header .badge {
-  background: #e0e7ff;
-  color: #4338ca;
-  font-size: 0.85rem;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-weight: 600;
-}
-.section-header h2 {
-  font-size: 2.2rem;
-  color: #1e293b;
-  margin: 10px 0;
-}
-.line-gold {
-  width: 60px;
-  height: 4px;
-  background: #f59e0b;
-  margin: 0 auto;
-  border-radius: 2px;
 }
 
-/* Layout Levels */
-.tier-top {
+.top-management {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
-.tier-grid {
+
+.sub-management {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 
-/* Card Styling */
 .exec-card {
-  background: #fff;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  border: 1px solid #e2e8f0;
-}
-.exec-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.12);
-}
-.primary-card {
-  max-width: 340px;
-  width: 100%;
-  border: 2px solid #f59e0b;
-}
-
-.img-box {
-  width: 100%;
-  height: 340px;
-  overflow: hidden;
-  position: relative;
-  background: #e2e8f0;
-}
-.img-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.exec-details {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
   padding: 20px;
-  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
-.exec-details h3 {
-  font-size: 1.25rem;
-  color: #0f172a;
-  margin-bottom: 4px;
+
+.exec-card img {
+  width: 100%;
+  max-width: 220px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
 }
-.exec-details .position {
-  color: #2563eb;
-  font-weight: 500;
-  font-size: 0.95rem;
-}
-.exec-details .email {
-  color: #64748b;
-  font-size: 0.85rem;
-  margin-top: 8px;
+
+.exec-card.highlight {
+  border: 2px solid #2563eb; /* เน้นกรอบประธาน/ผู้อำนวยการ */
 }
