@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าหลัก - วิทยาลัยเทคโนโลยีโปลิเทคนิคลานนา</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header-top py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <div class="bg-white rounded-circle d-flex align-items-center justify-content-center shadow-sm" style="width: 55px; height: 55px; border: 2px solid var(--poly-gold);">
+                    <span class="fw-bold text-navy fs-4" style="color: var(--poly-navy);">LP</span>
+                </div>
+                <div>
+                    <h1 class="brand-title m-0">วิทยาลัยเทคโนโลยีโปลิเทคนิคลานนา</h1>
+                    <div class="brand-subtitle">Lanna Polytechnic College Chiang Mai</div>
+                </div>
+            </div>
+            <div class="d-none d-md-block text-end text-white-50 small">
+                <div><i class="bi bi-geo-alt-fill text-warning"></i> อ.เมือง จ.เชียงใหม่</div>
+                <div><i class="bi bi-telephone-fill text-warning"></i> 053-213061</div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-poly sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto gap-lg-1">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">หน้าหลัก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="executive.html">ข้อมูลผู้บริหาร</a></li>
+                    <li class="nav-item"><a class="nav-link" href="staff.html">ข้อมูลบุคลากร</a></li>
+                    <li class="nav-item"><a class="nav-link" href="student.html">ข้อมูลนักเรียน นักศึกษา</a></li>
+                    <li class="nav-item"><a class="nav-link" href="majors.html">ข้อมูลสาขาวิชาที่เปิดสอน</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+        <div id="heroCarousel" class="carousel slide mb-4 shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="p-5 text-white text-center rounded d-flex flex-column align-items-center justify-content-center" style="min-height: 280px; background: linear-gradient(135deg, #0A2540 0%, #1e4976 100%);">
+                        <span class="badge bg-warning text-dark px-3 py-2 mb-2 fs-6">ยินดีต้อนรับสู่ปีการศึกษา 2026</span>
+                        <h2 class="fw-bold display-6">วิทยาลัยเทคโนโลยีโพลีเทคนิคล้านนา เชียงใหม่</h2>
+                        <p class="lead text-white-50">มุ่งมั่นสร้างสรรค์นวัตกรรม สร้างวิชาชีพสู่สังคมคุณภาพ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-8">
+                <h3 class="section-header mb-3">ข่าวประชาสัมพันธ์</h3>
+                <div class="card card-custom mb-3">
+                    <div class="card-body p-4">
+                        <span class="badge bg-primary mb-2">ข่าวการศึกษา</span>
+                        <h5 class="card-title fw-bold text-navy">เปิดรับสมัครนักศึกษาใหม่ ประจำปีการศึกษา 2026 (รอบโควตา)</h5>
+                        <p class="card-text text-secondary">วิทยาลัยเทคโนโลยีโพลีเทคนิคล้านนา เปิดรับสมัครนักศึกษาระดับ ปวช. และ ปวส. ในสาขาวิชาเทคโนโลยีสารสนเทศ การบัญชี ช่างไฟฟ้า และการท่องเที่ยว...</p>
+                        <a href="majors.html" class="btn btn-poly btn-sm">อ่านรายละเอียด <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card card-custom">
+                    <div class="card-header bg-navy text-white fw-bold py-3" style="background-color: var(--poly-navy);">
+                        <i class="bi bi-bell-fill text-warning me-2"></i> ประกาศสำคัญ
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item py-3">📌 ปฏิทินการศึกษา ภาคเรียนที่ 1/2569</li>
+                        <li class="list-group-item py-3">📌 กำหนดการสอบปลายภาคเรียน</li>
+                        <li class="list-group-item py-3">📌 ดาวน์โหลดแบบฟอร์มวิชาการ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-4 mt-auto text-center text-md-start">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div>
+                <h6 class="text-white fw-bold mb-1">วิทยาลัยเทคโนโลยีโพลีเทคนิคล้านนา เชียงใหม่</h6>
+                <p class="small m-0 text-white-50">96 ถนนสุขเกษม ต.ช้างเผือก อ.เมือง จ.เชียงใหม่ 50300</p>
+            </div>
+            <p class="small m-0 text-white-50 mt-2 mt-md-0">© 2026 Lanna Polytechnic College</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
