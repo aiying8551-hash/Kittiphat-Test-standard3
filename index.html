@@ -1,16 +1,190 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ระบบข้อมูลสถาบัน</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>วิทยาลัยเทคโนโลยีสารภี | หน้าหลัก</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <<ul class="navbar">
-  <li><a href="index.html">หน้าแรก</a></li>
-  <li><a href="executive.html">ข้อมูลผู้บริหาร</a></li> <!-- ตรวจสอบว่าไม่ได้ใส่เป็น course.html หรือ subject.html -->
-  <li><a href="courses.html">สาขาวิชาที่สอน</a></li>
-</ul> 
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="mark"><span>วส</span></span>
+      <span>
+        วิทยาลัยเทคโนโลยีสารภี
+        <small>Saraphi Technological College</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="เปิดเมนู">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      <a href="index.html" class="active">หน้าหลัก</a>
+      <a href="executives.html">ผู้บริหาร</a>
+      <a href="staff.html">บุคลากร</a>
+      <a href="students.html">นักเรียน นักศึกษา</a>
+      <a href="programs.html">สาขาวิชาที่เปิดสอน</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="hero-eyebrow">สถานศึกษาสังกัดอาชีวศึกษา</p>
+      <h1>ผลิตช่างฝีมือ<br>สร้าง<em>อนาคต</em>ด้วยมือจริง</h1>
+      <p class="lead">วิทยาลัยเทคโนโลยีสารภี เปิดสอนหลักสูตรประกาศนียบัตรวิชาชีพ (ปวช.) และประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) มุ่งเน้นการปฏิบัติจริงควบคู่ทฤษฎี เพื่อผลิตกำลังคนสายอาชีพที่ตลาดแรงงานต้องการ</p>
+      <div class="hero-actions">
+        <a href="programs.html" class="btn btn-primary">ดูสาขาวิชาที่เปิดสอน</a>
+        <a href="students.html" class="btn btn-ghost">ข้อมูลนักเรียน นักศึกษา</a>
+      </div>
+    </div>
+    <div class="hero-panel">
+      <p class="panel-title">ภาพรวมสถานศึกษา ปีการศึกษา 2569</p>
+      <div class="stat-row">
+        <span class="stat-label">สาขาวิชาที่เปิดสอน</span>
+        <span class="stat-num">12</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">นักเรียน นักศึกษา</span>
+        <span class="stat-num">1,840</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">ครูและบุคลากร</span>
+        <span class="stat-num">96</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">ปีที่ก่อตั้ง</span>
+        <span class="stat-num">2531</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="tag">เมนูหลัก</p>
+        <h2>ข้อมูลสถานศึกษา</h2>
+      </div>
+      <p>เข้าถึงข้อมูลผู้บริหาร บุคลากร นักเรียนนักศึกษา และสาขาวิชาที่เปิดสอนของวิทยาลัยได้จากที่นี่</p>
+    </div>
+    <div class="quick-grid">
+      <a class="quick-card" href="executives.html">
+        <p class="qn">01</p>
+        <h3>ข้อมูลผู้บริหาร</h3>
+        <p>รายชื่อและตำแหน่งคณะผู้บริหารวิทยาลัย</p>
+      </a>
+      <a class="quick-card" href="staff.html">
+        <p class="qn">02</p>
+        <h3>ข้อมูลบุคลากร</h3>
+        <p>ครูและเจ้าหน้าที่ประจำแผนกวิชาต่าง ๆ</p>
+      </a>
+      <a class="quick-card" href="students.html">
+        <p class="qn">03</p>
+        <h3>นักเรียน นักศึกษา</h3>
+        <p>จำนวนและกิจกรรมของนักเรียนนักศึกษา</p>
+      </a>
+      <a class="quick-card" href="programs.html">
+        <p class="qn">04</p>
+        <h3>สาขาวิชาที่เปิดสอน</h3>
+        <p>หลักสูตร ปวช. และ ปวส. ทั้งหมดของวิทยาลัย</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="tag">ตัวเลขสำคัญ</p>
+        <h2>สถานศึกษาในภาพรวม</h2>
+      </div>
+    </div>
+    <div class="stat-strip">
+      <div class="stat-cell"><div class="n">6</div><div class="l">แผนกวิชา</div></div>
+      <div class="stat-cell"><div class="n">38</div><div class="l">ห้องปฏิบัติการ</div></div>
+      <div class="stat-cell"><div class="n">92%</div><div class="l">อัตราการมีงานทำ</div></div>
+      <div class="stat-cell"><div class="n">150+</div><div class="l">สถานประกอบการเครือข่าย</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="tag">ประชาสัมพันธ์</p>
+        <h2>ข่าวสารและกิจกรรม</h2>
+      </div>
+      <p>ความเคลื่อนไหวล่าสุดของวิทยาลัย</p>
+    </div>
+    <div class="news-list">
+      <div class="news-item">
+        <span class="news-date">02 ก.ย. 69</span>
+        <div>
+          <h4>เปิดรับสมัครนักเรียน นักศึกษาใหม่ ปีการศึกษา 2570</h4>
+          <p>รับสมัครระดับ ปวช. และ ปวส. ทุกสาขาวิชา ตั้งแต่บัดนี้เป็นต้นไป</p>
+        </div>
+        <span class="news-more">อ่านต่อ</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">20 ส.ค. 69</span>
+        <div>
+          <h4>การแข่งขันทักษะวิชาชีพระดับภาค ประจำปี 2569</h4>
+          <p>นักศึกษาแผนกช่างยนต์และแผนกคอมพิวเตอร์ธุรกิจคว้ารางวัลชนะเลิศ</p>
+        </div>
+        <span class="news-more">อ่านต่อ</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">05 ส.ค. 69</span>
+        <div>
+          <h4>พิธีลงนามความร่วมมือ (MOU) กับสถานประกอบการ</h4>
+          <p>ขยายเครือข่ายการฝึกงานและทวิภาคีร่วมกับภาคเอกชนเพิ่มเติม</p>
+        </div>
+        <span class="news-more">อ่านต่อ</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>วิทยาลัยเทคโนโลยีสารภี</h4>
+        <p>123 หมู่ 4 ตำบลสารภี อำเภอสารภี จังหวัดเชียงใหม่ 50140</p>
+        <p>โทร. 053-XXX-XXX &nbsp;|&nbsp; อีเมล info@saraphitech.ac.th</p>
+      </div>
+      <div>
+        <h4>เมนูลัด</h4>
+        <ul>
+          <li><a href="executives.html">ข้อมูลผู้บริหาร</a></li>
+          <li><a href="staff.html">ข้อมูลบุคลากร</a></li>
+          <li><a href="students.html">นักเรียน นักศึกษา</a></li>
+          <li><a href="programs.html">สาขาวิชาที่เปิดสอน</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>ติดตามเรา</h4>
+        <ul>
+          <li><a href="#">Facebook: วิทยาลัยเทคโนโลยีสารภี</a></li>
+          <li><a href="#">YouTube: Saraphi Tech Channel</a></li>
+          <li><a href="#">Line Official: @saraphitech</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2569 วิทยาลัยเทคโนโลยีสารภี สงวนลิขสิทธิ์</span>
+      <span>จัดทำโดย กิตติพัฒน์ ไชยเฟย</span>
+    </div>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>
