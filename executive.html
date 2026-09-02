@@ -1,65 +1,55 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ข้อมูลผู้บริหาร</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<section class="executive-wrapper">
+  <div class="section-header">
+    <span class="badge">Organization Structure</span>
+    <h2>คณะผู้บริหารวิทยาลัย</h2>
+    <div class="line-gold"></div>
+  </div>
 
-  <section class="executive-section">
-    <div class="container">
-      <h2 class="title">คณะผู้บริหาร</h2>
-      <div class="divider"></div>
-
-      <!-- ผู้บริหารระดับสูง (ผู้อำนวยการ/ผู้รับใบอนุญาต) -->
-      <div class="top-executive">
-        <div class="executive-card main-card">
-          <div class="image-wrapper">
-            <img src="images/director.jpg" alt="ผู้อำนวยการ">
-          </div>
-          <div class="executive-info">
-            <h3>ดร.ชื่อ-นามสกุล</h3>
-            <p class="position">ผู้อำนวยการ</p>
-          </div>
-        </div>
+  <!-- ระดับ 1: ผู้อำนวยการ / ประธาน -->
+  <div class="tier-top">
+    <div class="exec-card primary-card">
+      <div class="img-box">
+        <img src="https://via.placeholder.com/300x380/1e3a8a/ffffff?text=Director" alt="ผู้อำนวยการ">
+        <div class="overlay"></div>
       </div>
-
-      <!-- คณะผู้บริหาร / รองผู้อำนวยการ -->
-      <div class="executive-grid">
-        <div class="executive-card">
-          <div class="image-wrapper">
-            <img src="images/executive-1.jpg" alt="รองผู้อำนวยการ">
-          </div>
-          <div class="executive-info">
-            <h3>อ.ชื่อ-นามสกุล</h3>
-            <p class="position">รองผู้อำนวยการฝ่ายวิชาการ</p>
-          </div>
-        </div>
-
-        <div class="executive-card">
-          <div class="image-wrapper">
-            <img src="images/executive-2.jpg" alt="รองผู้อำนวยการ">
-          </div>
-          <div class="executive-info">
-            <h3>อ.ชื่อ-นามสกุล</h3>
-            <p class="position">รองผู้อำนวยการฝ่ายกิจการนักศึกษา</p>
-          </div>
-        </div>
-
-        <div class="executive-card">
-          <div class="image-wrapper">
-            <img src="images/executive-3.jpg" alt="รองผู้อำนวยการ">
-          </div>
-          <div class="executive-info">
-            <h3>อ.ชื่อ-นามสกุล</h3>
-            <p class="position">รองผู้อำนวยการฝ่ายบริหารงานทั่วไป</p>
-          </div>
-        </div>
+      <div class="exec-details">
+        <h3>ดร.สมชาย ใจดี</h3>
+        <p class="position">ผู้อำนวยการวิทยาลัย</p>
+        <p class="email">contact@lannapoly.ac.th</p>
       </div>
     </div>
-  </section>
+  </div>
 
-</body>
-</html>
+  <!-- ระดับ 2: ทีมรองผู้อำนวยการ -->
+  <div class="tier-grid">
+    <div class="exec-card">
+      <div class="img-box">
+        <img src="https://via.placeholder.com/300x380/2563eb/ffffff?text=Vice+1" alt="รองผู้อำนวยการ">
+      </div>
+      <div class="exec-details">
+        <h3>อ.นภา วงศ์สว่าง</h3>
+        <p class="position">รองผู้อำนวยการฝ่ายวิชาการ</p>
+      </div>
+    </div>
+
+    <div class="exec-card">
+      <div class="img-box">
+        <img src="https://via.placeholder.com/300x380/2563eb/ffffff?text=Vice+2" alt="รองผู้อำนวยการ">
+      </div>
+      <div class="exec-details">
+        <h3>อ.วิชัย เกียรติบูรพา</h3>
+        <p class="position">รองผู้อำนวยการฝ่ายกิจการนักศึกษา</p>
+      </div>
+    </div>
+
+    <div class="exec-card">
+      <div class="img-box">
+        <img src="https://via.placeholder.com/300x380/2563eb/ffffff?text=Vice+3" alt="รองผู้อำนวยการ">
+      </div>
+      <div class="exec-details">
+        <h3>อ.ปรียา ศรีสุข</h3>
+        <p class="position">รองผู้อำนวยการฝ่ายบริหารงานทั่วไป</p>
+      </div>
+    </div>
+  </div>
+</section>
